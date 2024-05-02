@@ -1,10 +1,10 @@
 services:
-  ducks-database:
+  flowers-database:
     image: postgres:alpine
-    container_name: ducks-database
+    container_name: flowers-database
     ports:
       - "6001:5432"
     environment:
-      POSTGRES_USERNAME: postgres
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: ducks
+      POSTGRES_USERNAME: flowers_jkia_user
+      POSTGRES_PASSWORD: x90MotJD8Tx0zJNPJxG9TDLaQbQBXcUi
+      POSTGRES_DB: flowers_jkia

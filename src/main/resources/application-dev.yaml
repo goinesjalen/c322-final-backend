@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:6001/ducks
-    username: postgres
-    password: password
+    url: jdbc:postgresql://dpg-copeh84f7o1s73dujvmg-a.ohio-postgres.render.com:5432/flowers_jkia
+    username: flowers_jkia_user
+    password: x90MotJD8Tx0zJNPJxG9TDLaQbQBXcUi
 
   jpa:
     hibernate:
